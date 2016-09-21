@@ -1,8 +1,17 @@
 class Card {
   constructor(value) {
     this.value = value;
+    this.suit = this.randomType();
   }
-
+  randomType(){
+    switch (Math.floor(Math.random()*4))
+      {
+        case 0: return 'd';
+        case 1: return 's';
+        case 2: return 'h';    
+        case 3: return 'c';
+      }
+  }
   parseValue() {
     switch (this.value){
       case 'B':

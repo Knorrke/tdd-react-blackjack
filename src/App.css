@@ -1,18 +1,23 @@
 .card {
-  height: 50px;
-  width: 50px;
   display: inline-block;
   margin: 2px;
-  background-color: green;
   text-align: center;
 }
 
 .player {
-  height: 100px;
-  width: 400px;
-  background-color: blue;
   padding: 2px;  
+  min-height: 250px;
+  width:550px;
 }
-#Spielstand {
+
+.user {
+  background-color: blue;
+}
+
+.dealer {
+  background-color: red;
+}
+
+.spielstand {
 	text-align:right;
 }

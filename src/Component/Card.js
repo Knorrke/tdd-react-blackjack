@@ -5,7 +5,7 @@ class CardComp extends Component {
   render() {
     return (
       <div className="card">
-        <p>{this.props.data.value}</p>
+      <img src={require('../../img/'+this.props.data.suit + this.props.data.value + '.png')}/>
       </div>
     );
   }

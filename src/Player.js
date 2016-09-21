@@ -1,5 +1,6 @@
 class Player {
   constructor() {
+    this.type = 'user'
     this.cards = []
   }
 
